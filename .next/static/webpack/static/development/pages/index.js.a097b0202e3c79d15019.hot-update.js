@@ -16,6 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/index.css */ "./css/index.css");
 /* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./common */ "./pages/common.js");
 
 var _jsxFileName = "/Users/gaoyizhen736/Desktop/nextest/pages/index.js";
 
@@ -42,6 +43,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 
+
  // export default ()=> 
 // <div>welcome to next.js
 //  <div>
@@ -66,10 +68,16 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 21
         },
         __self: this
-      }, "next.js ", this.props.userAgent);
+      }, "next.js ", this.props.userAgent, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, _common__WEBPACK_IMPORTED_MODULE_3__["default"].say));
     }
   }], [{
     key: "getInitialProps",
@@ -129,4 +137,4 @@ function (_React$Component) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.9e5702b8d7b7693edf46.hot-update.js.map
+//# sourceMappingURL=index.js.a097b0202e3c79d15019.hot-update.js.map
